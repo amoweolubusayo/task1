@@ -9,6 +9,41 @@
       "address": "0xCe604589E2B15EfE1f97C6C729900E7b7E623F1f",
       "txHash": "0xd97fa43ad3b51915141dddc687d833366d18dc40192d82915ddab2a1dfae6fe6",
       "kind": "transparent"
+    },
+    {
+      "address": "0x34C18293ca2c05fd4d03c8d33D19216034Ac2586",
+      "txHash": "0xbe0ef4c9c13d61af9b68f66b937535cf24b371709b52ff2424b9b6d86b8d6456",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xc8D606F5f48d6Ccdc51C6131b20D46Daff84336A",
+      "txHash": "0x2cfce0c22e4157b4a410b20b07ec21b58e89cdb550a5ed63fbfbbc061a02f8bf",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6D42454676221C04d600Ea42605eBB94Ea772CC9",
+      "txHash": "0xfbcf29c91cd4901a761d602ebf1c85af9c72d12b14f0d7728197798c3bd05c7b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xD3fb1B021A545b998F9aeffd89D34E404DC55271",
+      "txHash": "0x8366269610cc6869ef6235ae45b9cc86c7b975f0f2714c9a7dd7e4d57c87eff1",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9b5A71a1EC7542e015871956519373a1064E96d2",
+      "txHash": "0x9ad4a2b189520537b9e1e7bcd391aac854451f3b628fd8b71dfc758f11aac928",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xB8E702904efb9D0DCC3601135922e870F9a10fF4",
+      "txHash": "0x1734f2dcd332bced2b9730927000a176c972fd46eff06a4c625571debbba2955",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xFE4Fc1e2b75116654C10887AF6780984a2e3Ea2C",
+      "txHash": "0xa129f23ac9c7fe89abf71b6b413fc0b55fe269e0052dd15f891718e441c36efd",
+      "kind": "transparent"
     }
   ],
   "impls": {
@@ -46,6 +81,50 @@
             "type": "t_uint256",
             "contract": "StorageV2",
             "src": "contracts/StorageV2.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "7d17b1ff3f72176c0b1eec84f2051558f441a745448b689ad1a02c560fcfde86": {
+      "address": "0x660Adbbe053fa26C902d92e1579ceF6088B2A079",
+      "txHash": "0x24b3b747cd8e8cfe4c258e5057d6ece638300411504217c46bed3aec992aab5c",
+      "layout": {
+        "storage": [
+          {
+            "label": "bankBalances",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Atm",
+            "src": "contracts/Atm.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "68b587e657b89993fe43829ac9bfe6e1a6ed93e0dc4e155bef8df7c3255604d8": {
+      "address": "0xdA10DF35A73984de06d0B70870A98650a4316982",
+      "txHash": "0x1ac522d43afaad99d387ebe82fe57cd2d7b410de5f25519eb17764fd1c9844d0",
+      "layout": {
+        "storage": [
+          {
+            "label": "bankBalances",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Atm",
+            "src": "contracts/Atm.sol:6"
           }
         ],
         "types": {

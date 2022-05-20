@@ -1,25 +1,65 @@
 {
   "manifestVersion": "3.2",
   "admin": {
-    "address": "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
-    "txHash": "0x11b83864eee867b5607862c9fb48dca1ebc415ff4b52ab4d83b48f706ef6cc66"
+    "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "txHash": "0x1654caa2936aff0a5f6fc672c7f8e20f824b90f68dc2fd8de25b04dc7fa22df9"
   },
   "proxies": [
     {
+      "address": "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+      "txHash": "0x40a3376c351e559a6be45cc1f5b1b9e0bd29e2ab45c7d38dd27e98c00ea6127c",
+      "kind": "transparent"
+    },
+    {
       "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
-      "txHash": "0xdb55f114e77b44f001e81d48351a0e4022eb0c95c501cd5db6a45594586cb29c",
+      "txHash": "0xbd474dae519cf6adcf9449b4137565513032a75d652cb7cb1cad575d67f5a0f0",
       "kind": "transparent"
     },
     {
       "address": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
-      "txHash": "0x3120c168a4a7877e4fd36bd7164b3fef304c5ead1e9954eb840cdd09ef47decc",
+      "txHash": "0x56bc450389b8cfba0994dc32b01ae61a8e85eab8fbf01d55756bb23d267178bd",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+      "txHash": "0x0fe818ff415d7e92ea37ada22ff3d8908c74ea45f5590feb1a91a455940bc895",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xA51c1fc2f0D1a1b8494Ed1FE312d7C3a78Ed91C0",
+      "txHash": "0x77670e923789a5173b1c598c1084a5650aaf4043d9453be30b3a3f51dc29cf9a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0DCd1Bf9A1b36cE34237eEaFef220932846BCD82",
+      "txHash": "0xc7fd649d953aefa9a6f92fbc733dadee5dfe4c73f85ba322e5db5a95ba25e380",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x959922bE3CAee4b8Cd9a407cc3ac1C251C2007B1",
+      "txHash": "0xed27090d84f1688807642bf46a33190516aa7efb9a14e3abd9be7f2b37dd7586",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+      "txHash": "0xc59945b115808d2aed4c55b1ec6fa97a11b76c6e7ac8d86584a4d1c255cc0c82",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+      "txHash": "0xb3b08a2dfe5d340fa26c01b0f3845c23cccc34dc818bd2f840bcf7cc0bfe677e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x68B1D87F95878fE05B998F19b66F4baba5De1aed",
+      "txHash": "0x3c5d3879709d021ebd79091639da2edb788cdd91471fa8d8e939cee025330d1c",
       "kind": "transparent"
     }
   ],
   "impls": {
-    "399c985239bf31af2dcd4e1a3a496445c1f16ddf90a2f0642c2c175f72d49914": {
-      "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
-      "txHash": "0x5232d8517576a98e6585a281b8ea78215d4c3c18da0cde66777112c59ad6b032",
+    "2708fecfadbafe6a310a023cf4e08563629ac722adf8c1874010fd525aa8540f": {
+      "address": "0x9A9f2CCfdE556A7E9Ff0848998Aa4a0CFD8863AE",
+      "txHash": "0x9cbb9ed3fc81a205c8bc50c4dc32f0c7d73b1a579f0d7d42d65ca2a838b46ac5",
       "layout": {
         "storage": [
           {
@@ -27,8 +67,8 @@
             "offset": 0,
             "slot": "0",
             "type": "t_uint256",
-            "contract": "Storage",
-            "src": "contracts/Storage.sol:5"
+            "contract": "StorageV2",
+            "src": "contracts/StorageV2.sol:6"
           }
         ],
         "types": {
@@ -39,18 +79,40 @@
         }
       }
     },
-    "2708fecfadbafe6a310a023cf4e08563629ac722adf8c1874010fd525aa8540f": {
-      "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
-      "txHash": "0x122afcd43d6905a843e0aaabc1d8040ea218c585ad5765a71cde8c130fe62ffb",
+    "7d17b1ff3f72176c0b1eec84f2051558f441a745448b689ad1a02c560fcfde86": {
+      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "txHash": "0x4a73209f8bc19ee507b2d7e1ec768099c4cb3f4614f3b40efbb67d795d5765ca",
       "layout": {
         "storage": [
           {
-            "label": "number",
+            "label": "bankBalances",
             "offset": 0,
             "slot": "0",
             "type": "t_uint256",
-            "contract": "StorageV2",
-            "src": "contracts/StorageV2.sol:6"
+            "contract": "Atm",
+            "src": "contracts/Atm.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "68b587e657b89993fe43829ac9bfe6e1a6ed93e0dc4e155bef8df7c3255604d8": {
+      "address": "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+      "txHash": "0xaab059bbb6513290ed5a8825fccbbe794719ffd2cc0a770371c4f348188dc303",
+      "layout": {
+        "storage": [
+          {
+            "label": "bankBalances",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Atm",
+            "src": "contracts/Atm.sol:6"
           }
         ],
         "types": {
